@@ -10,7 +10,6 @@ int main() {
     for (int i = 1; i <= n; i++)
         cin >> p[i];
 
-    // p[i] = i, j'ye verdi → ans[j] = i
     for (int i = 1; i <= n; i++)
         ans[p[i]] = i;
 
