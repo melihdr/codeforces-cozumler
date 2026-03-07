@@ -8,10 +8,10 @@ int main() {
   int count = 0;
 
 
-  for (int i = 0; i <n; i++) {
-    int pi, qi;
-    cin >> pi >> qi;
-    if (qi - pi >= 2) {
+  while(n--) {
+    int p, q;
+    cin >> p >> q;
+    if (q - p >=2) {
       count++;
     }
   }
